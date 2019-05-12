@@ -11,140 +11,181 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Diplomata" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
 
     <style>
-    
-    body {
-        background-color: #ffeccc;
-    }
-    
-    h1{
-        text-align: center;
-        font-family: 'Diplomata';
-        font-size: 30px;
-    }
-        
-    h2{
-        text-align: center;
-        font-size: 17px;
-        font-family: 'Titan+One';
-    }
-        
-    h3{
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    h4{
-      text-align: center;
-      font-family: 'Stylish', sans-serif;
-      font-size: 20px;
-    }
-    
-    h5{
-      font-family: 'Baloo Bhai', cursive;
-      text-align:center;
-      font-size:14px;
-    }
-    
-    p{
-        text-align: center;
-        font-size: 13px;
-    }
-    
-    a:hover {
-        color:blue;
-    }
-    
-    .navbar{
-        background: #ffd3cc;
-    }
-    .nav.navbar-nav li a{
-        color:black;
-    }
-    .navbar-inverse .navbar-brand{
-        color:black;
-    }
-    /*.navbar-inverse .navbar-brand .navbar-toggle {*/
-    /*    color:black;*/
-    /*}*/
+        body {
+            background-color: #ffeccc;
+        }
 
+        h1 {
+            text-align: center;
+            font-family: 'Diplomata';
+            font-size: 30px;
+        }
 
-  /*@media (min-width:768px) {*/
-        
-  /*  h1 {*/
-  /*    font-size: 50px;*/
-  /*  }*/
-  /*  h2 {*/
-  /*    font-size: 50px;*/
-  /*  }*/
-  /*  h3 {*/
-  /*    font-size: 40px;*/
-  /*  }*/
-  /*  h4 {*/
-  /*    font-size: 15px;*/
-  /*  }*/
-  /*}*/
+        h2 {
+            text-align: center;
+            font-size: 17px;
+            font-family: 'Titan+One';
+        }
 
-  /*md*/
+        h3 {
+            text-align: center;
+            font-size: 15px;
+        }
 
-  /*@media (min-width:992px) {*/
-  /*  h1 {*/
-  /*    font-size: 130px;*/
-  /*  }*/
-  /*  h2 {*/
-  /*    font-size: 70px;*/
-  /*  }*/
-  /*  h3 {*/
-  /*    font-size: 60px;*/
-  /*  }*/
-  /*  h4 {*/
-  /*    font-size: 15px;*/
-  /*  }*/
-  /*}*/
+        h4 {
+            text-align: center;
+            font-family: 'Stylish', sans-serif;
+            font-size: 20px;
+        }
 
-  /*lg*/
+        h5 {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            font-size: 14px;
+        }
 
-  @media (min-width:1200px) {
-    h1 {
-      font-size: 85px;
-    }
-    h2 {
-      font-size: 45px;
-    }
-    h3 {
-      font-size: 25px;
-    }
-    h4 {
-      font-size: 35px;
-    }
-    h5{
-      font-size:25px;
-      
-    }
-    p{
-      font-size:17px ;
-    }
-  }
-        
+        p {
+            text-align: center;
+            font-size: 13px;
+        }
+
+        h6 {
+            text-align: center;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .navbar {
+            background: #ffd3cc;
+        }
+
+        .nav.navbar-nav li a {
+            color: black;
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: black;
+        }
+
+        /*.navbar-inverse .navbar-brand .navbar-toggle {*/
+
+        /*    color:black;*/
+
+        /*}*/
+
+        /*@media (min-width:768px) {*/
+
+        /*  h1 {*/
+
+        /*    font-size: 50px;*/
+
+        /*  }*/
+
+        /*  h2 {*/
+
+        /*    font-size: 50px;*/
+
+        /*  }*/
+
+        /*  h3 {*/
+
+        /*    font-size: 40px;*/
+
+        /*  }*/
+
+        /*  h4 {*/
+
+        /*    font-size: 15px;*/
+
+        /*  }*/
+
+        /*}*/
+
+        /*md*/
+
+        /*@media (min-width:992px) {*/
+
+        /*  h1 {*/
+
+        /*    font-size: 130px;*/
+
+        /*  }*/
+
+        /*  h2 {*/
+
+        /*    font-size: 70px;*/
+
+        /*  }*/
+
+        /*  h3 {*/
+
+        /*    font-size: 60px;*/
+
+        /*  }*/
+
+        /*  h4 {*/
+
+        /*    font-size: 15px;*/
+
+        /*  }*/
+
+        /*}*/
+
+        /*lg*/
+
+        @media (min-width:1200px) {
+            h1 {
+                font-size: 85px;
+            }
+
+            h2 {
+                font-size: 45px;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-size: 35px;
+            }
+
+            h5 {
+                font-size: 25px;
+
+            }
+
+            h6 {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+        }
     </style>
-    
+
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-inverse" id="nav">
 
         <div class="container-fluid">
-            
+
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">HSTAT SPORTS</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -153,11 +194,11 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            
+
             <div class="collapse navbar-collapse" id="navbar">
 
                 <ul class="nav navbar-nav">
-                    
+
                     <li class="baseball">
                         <a href="baseball.html">
                             <svg class="baseball" width="26px" height="26px">
@@ -184,7 +225,7 @@
                             <span>Bowling</span>
                         </a>
                     </li>
-                    
+
                     <li class="cc">
                         <a href="cc.html">
                             <svg class="cc" width="26px" height="26px">
@@ -193,7 +234,7 @@
                             <span>Cross Country & Track</span>
                         </a>
                     </li>
-                    
+
                     <li class="handball">
                         <a href="handball.html">
                             <svg class="handball" width="26px" height="26px">
@@ -202,7 +243,7 @@
                             <span>Handball</span>
                         </a>
                     </li>
-                    
+
                     <li class="softball">
                         <a href="softball.html">
                             <svg class="softball" width="26px" height="26px">
@@ -211,7 +252,7 @@
                             <span>Girls Softball</span>
                         </a>
                     </li>
-                    
+
                     <li class="swimming">
                         <a href="swimming.html">
                             <svg class="swimming" width="26px" height="26px">
@@ -220,7 +261,7 @@
                             <span>Swimming</span>
                         </a>
                     </li>
-                    
+
                     <li class="tennis">
                         <a href="tennis.html">
                             <svg class="tennis" width="26px" height="26px">
@@ -229,7 +270,7 @@
                             <span>Girls Tennis</span>
                         </a>
                     </li>
-                    
+
                     <li class="volleyball">
                         <a href="volleyball.html">
                             <svg class="volleyball" width="26px" height="26px">
@@ -243,31 +284,32 @@
             </div>
         </div>
     </nav>
-    
+
     <h1><strong>TELECOM ATHLETICS</strong></h1>
-    
+
     <h2><strong>HIGH SCHOOL OF TELECOMMUNICATION ARTS & TECHNOLOGY</strong></h2>
-    
+
     <h3><a href="https://www.google.com/maps/place/High+School-Telecommunications/@40.6368412,-74.02549,17z/data=!3m1!4b1!4m5!3m4!1s0x89c245515631e381:0x86b74da3bfb6c8fa!8m2!3d40.6368371!4d-74.0233013">350 67th Street, Brooklyn, NY 11220</a></h3><br>
-    
-    <img src="tele.png" alt="Image" style = "display: block; margin-left: auto; margin-right: auto; width:40%">
+
+    <img src="tele.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width:40%">
     <br>
-    
-    <h4>   The High School of Telecommunication Arts and Technology is located in Bay Ridge, Brooklyn in NYC. The school roughly serves 1300 students. Here, many extracurricular activities are offered to these students. Ranging from baseball, to soccer, to volleyball, HSTAT has a wide range of sports teams for students of all kinds of background.</h4>
+
+    <h4> The High School of Telecommunication Arts and Technology is located in Bay Ridge, Brooklyn in NYC. The school roughly serves 1300 students. Here, many extracurricular activities are offered to these students. Ranging from baseball, to soccer, to volleyball,
+        HSTAT has a wide range of sports teams for students of all kinds of background.</h4>
     <br>
-    
-  <div class="container">
-    <p>350 67th Street, Brooklyn, NY 11220 <br>
-    Phone: (718) 759-3400    Fax: (718) 759-3490 <br>
-    Athletics Director - Graciela Murray <br>
-    <a href="mailto:gmurray@hstat.org">gmurray@hstat.org</a>
-    </p> 
+
+    <div class="container">
+        <p>350 67th Street, Brooklyn, NY 11220 <br> Phone: (718) 759-3400 Fax: (718) 759-3490 <br> Athletics Director - Graciela Murray <br>
+            <a href="mailto:gmurray@hstat.org">gmurray@hstat.org</a>
+        </p>
     </div>
-    
+
     <h5>IF YOU HAVE ANY SUGGESTIONS TOWARDS CHANGES WITHIN THIS SITE, PLEASE CONTACT EITHER OF US AT... <br>
-<a href="mailto:syedaa4390@hstat.org">syedaa4390@hstat.org</a>  or <a href="mailto:janinez0367@hstat.org">janinez0367@hstat.org</a> 
-</h5>
-    
+        <a href="mailto:syedaa4390@hstat.org">syedaa4390@hstat.org</a> or <a href="mailto:janinez0367@hstat.org">janinez0367@hstat.org</a>
+    </h5>
+
+    <h6>Copyright May 2019™</h6>
+
 </body>
 
 </html>
